@@ -1,0 +1,604 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Assistant", serif;
+}
+
+.main {
+  width: 1500px;
+
+}
+
+.myntra-img {
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  background-color: white;
+
+}
+.div{
+  cursor: pointer;
+}
+
+
+.div2 {
+  display: flex;
+  gap: 2px;
+  cursor: pointer;
+}
+
+.new {
+  font-size: 8px;
+  color: red;
+  cursor: pointer;
+  /* padding-bottom: 10px; */
+}
+
+.search-bar {
+  width: 34%;
+  background-color: #f5f5f6;
+  display: flex;
+
+}
+
+.search {
+  width: 25px;
+  margin-top: 14px;
+  color: #717288;
+  padding-left: 2px;
+}
+
+.search-bar input {
+  border: none;
+  background-color: #f5f5f6;
+}
+
+.search-bar input:focus {
+  border: none;
+}
+
+
+
+.icon {
+  width: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+/* mid css start  */
+.mid {
+  width: 100%;
+}
+
+.drag-img1 {
+  width: 100%;
+  cursor: pointer;
+}
+.big-images{
+  width: 25%;
+}
+.medal {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  font-size: 23px;
+  margin: 40px 0px;
+  gap: 5px;
+  cursor: pointer;
+  color: #44505d;
+}
+
+.drag-img2 {
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+}
+
+.boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 16%;
+  cursor: pointer;
+}
+
+.boxes2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+
+/* mid css end  */
+
+/* footer css :start */
+
+.footer {
+  width: 70%;
+  height: 520px;
+  display: flex;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.online {
+  width: 15%;
+  height: 100%;
+}
+
+.online2 {
+  width: 30%;
+  height: 100%;
+}
+
+.online3 {
+  width: 30%;
+  height: 100%;
+}
+
+
+.online-shop1 {
+  font-size: 15px;
+}
+
+
+.menus {
+  margin-top: 15px;
+  color: #44505d;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+.online-shop2 {
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.one {
+  display: flex;
+
+}
+
+.format {
+  margin-top: 30px;
+}
+
+.tag {
+  cursor: pointer;
+  padding-bottom: 20px;
+}
+
+
+.guarantee {
+  margin-left: 10px;
+
+}
+
+.two {
+  display: flex;
+  margin-top: 20px;
+
+}
+
+.footer-end {
+  width: 70%;
+  height: 520px;
+
+  /* justify-content: space; */
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.last-foot {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* footer css :end */
+
+
+/* middle css :start */
+.middle {
+  width: 100%;
+  margin: auto;
+}
+
+
+
+.first-line {
+  width: 100%;
+  height: 200px;
+  /* border: 1px solid black; */
+  display: flex;
+
+}
+
+.first-left {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 25px;
+
+}
+
+.first-left1 {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.hom-clo {
+  color: #44505d;
+  cursor: pointer;
+}
+
+.first-right {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-right1 {
+  width: 50%;
+  display: flex;
+  align-items: end;
+  padding-bottom: 40px;
+  gap: 20px;
+  color: #44505d;
+  font-size: 15px;
+}
+
+.first-right2 {
+  height: 50px;
+  display: flex;
+  padding: 10px;
+  margin-top: 120px;
+  margin-right: 10px;
+  border: 1px solid;
+  align-items: center;
+  /* padding-bottom: 40px;
+  padding-right: 30px; */
+  
+}
+
+.bunddle {
+  gap: 5px;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 10px;
+ margin-top: 10px;
+}
+.bunddle:hover{
+  background-color: #dadcde;
+}
+
+.left-portion {
+  width: 18%;
+  border-right: 1px solid black;
+}
+
+.categories {
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+.cate {
+  font-weight: bold;
+  font-size: 14px;
+  opacity: 0.9;
+
+}
+
+.variety {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 15px;
+  color: #44505d;
+  cursor: pointer;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.brand-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #F5F5F6;
+  color: #717288;
+  border-radius: 50%;
+  padding-top: 7px;
+  font-size: 16px;
+
+}
+
+.middle2 {
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+
+.right-portion {
+  width: 82%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.bewakoof {
+  width: 222px;
+  height: 380px;
+  /* border: 1px solid black; */
+  margin-top: 25px;
+  cursor: pointer;
+
+}
+
+.bew {
+  font-weight: bold;
+  padding-top: 7px;
+  padding-left: 10px;
+}
+
+.print {
+  color: #717288;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.price {
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 7px;
+  padding-left: 10px
+}
+
+
+/* middle css :end */
+.left-head {
+  width: 37%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0.9;
+  padding-right: 50px;
+}
+
+.div-men {
+  position: relative;
+  cursor: pointer;
+
+}
+
+.leyout-men {
+  width: 1200px;
+  height: 400px;
+  position: absolute;
+  list-style: none;
+  top: 49px;
+  left: -100px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.2s;
+}
+
+.ul {
+  width: 20%;
+  list-style: none;
+  left: 0px;
+}
+
+li {
+  font-weight: bold;
+  padding: 2px 15px;
+  transition: 0.2s;
+}
+
+.div-men:hover .leyout-men {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+.leyout-men li:hover {
+  font-size: 17px;
+}
+.div-women{
+  cursor: pointer;
+}
+.div-women:hover .leyout-women {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+.leyout-women {
+  width: 1200px;
+  height: 400px;
+  position: absolute;
+  list-style: none;
+  top: 80px;
+  left: 100px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.2s;
+}
+.leyout-women li:hover {
+  font-size: 17px;
+}
+
+.tshirt-first-heading {
+     margin: 50px  65px;
+     cursor: pointer;
+}
+
+.tshirt-images-row-1 {
+  width: 100%;
+  margin-top: 12px ;
+  display: flex;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.T-Shirts-image-1 {
+  width: 28%;
+  margin-left: 25px ;
+
+}
+.T-Shirts-image-2 {
+  width: 28%;
+}
+
+
+
+.tshirt-desciptions {
+  width: 38%;
+  margin: 0px 20px;
+}
+
+.tshirt-rating-box {
+  width: 25%;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0, 0.2);
+  margin: 15px 0px;
+  display: flex;
+  cursor: pointer;
+}
+
+.tshirt-section-mrp {
+  margin-top: 10px;
+  display: flex;
+  gap: 15PX;
+  font-size: 20px;
+}
+
+.tshirt-sizes {
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  gap: 10px;
+  
+}
+
+.sizes-mrp {
+  width: 13%;
+  cursor: pointer;
+  padding: 8px 0px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  border-radius: 35px;
+}
+
+.tshirt-add-wishlist {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  
+}
+.tshirt-add-bag{
+  width: 55%;
+  padding: 13px 0px;
+  background-color: #FF3E6C;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.tshirt-wishlist{
+  width: 40%;
+  padding: 14px 0px;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0, 0.2);
+  text-align: center;
+ cursor: pointer;
+}
+.material-care{ 
+ font-weight: bold;
+ margin-top: 15px;
+}
+
+.material-iteams{
+  width:500px;
+  margin-top: 30px;
+  list-style: none;
+ display: flex;
+ justify-content: space-between;
+
+}
+.material-row1{
+  width: 45%;
+
+}
+.buyers-rating{
+  width:500px;
+  display: flex;
+  
+  gap: 50px;
+}
+.rate{
+  font-weight:normal;
+  margin-top:20px;
+
+
+}
